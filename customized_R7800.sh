@@ -7,7 +7,7 @@
 #=================================================
 # Modify default IP
 #git clone https://github.com/Lienol/openwrt-package package/Lienol
-echo src-git lienol https://github.com/Lienol/openwrt-package >> feeds.conf.default
+#echo src-git lienol https://github.com/Lienol/openwrt-package >> feeds.conf.default
 ./scripts/feeds clean
 ./scripts/feeds update -a
 #rm -rf feeds/lienol/lienol/ipt2socks
