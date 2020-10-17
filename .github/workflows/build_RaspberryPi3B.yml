@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build OpenWrt for Raspberry Pi 3B
 
 on:
   repository_dispatch:
