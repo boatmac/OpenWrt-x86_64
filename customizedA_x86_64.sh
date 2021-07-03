@@ -14,3 +14,10 @@
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+#rm -rf lede/package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon/
+git clone https://github.com/Hyy2001X/luci-app-adguardhome.git package/lean/luci-app-adguardhome/
+#git clone https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns/
+git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan/
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb/
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/uci-app-vssr/
